@@ -1,0 +1,144 @@
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../img/total-shape-TY_Ce5d2G-k-unsplash.jpg);
+    background-size: cover;
+}
+
+.left {
+    /* border: 3px solid red; */
+    display: inline;
+    position: absolute;
+    left: 2px;
+    top: 15px;
+    margin-left: 18px;
+
+
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 8px auto;
+    /* border: 3px solid yellow; */
+    border-radius: 75px;
+    padding: 15px;
+    margin-top: 25px;
+
+
+
+}
+
+.right {
+    display: inline-block;
+
+    position: absolute;
+    right: 2px;
+    top: 38px;
+
+    /* border: 3px solid green; */
+    width: 20%;
+    margin-right: 18px;
+    padding: 0px 2px;
+
+}
+
+#navbar {
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 8px;
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.active {
+    color: rgb(137, 218, 255);
+}
+
+a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+img {
+    width: 104px;
+    filter: invert(100%);
+}
+
+#inp {
+
+    display: inline;
+    width: 32%;
+    margin: 0px 4px;
+    background-color: initial;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+#btn {
+    color: white;
+    display: inline;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0px 8px;
+    background-color: initial;
+
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+h4 {
+    margin: 0px;
+    color: white;
+}
+
+.container {
+    border: white 2px solid;
+    border-radius: 10px;
+    margin: 64px 68px;
+    padding: 27px 21px;
+    width: 42%;
+}
+
+.form {
+    font-family: 'Baloo Bhai', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    width: 366px;
+    display: block;
+    text-align: center;
+    margin: 6px 0px;
+    margin-left: 63px;
+    border: black 2px solid;
+    border-radius: 20px;
+    padding: 2px 47px;
+}
+
+.container h2 {
+    text-align: center;
+    color: white;
+}
+
+.container #btn {
+    display: block;
+    width: 28%;
+    margin: auto;
+    margin-top: 28px;
+
+    color: white;
+    font-size: 16px;
+}
+
+#btn:hover {
+    color: gray;
+
+}

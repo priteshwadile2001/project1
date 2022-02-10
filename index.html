@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PM FITNESS</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="./img//20399131.jpg">
+            <H4>PM FITNESS</H4>
+        </div>
+        <div class="mid">
+            <nav id="navbar">
+                <a class="active" href="animation.html">HOME</a>
+                <a href="#">ABOUT </a>
+                <a href="#">FITNESS CALCULATER</a>
+                <a href="#">CONTACT US</a>
+            </nav>
+        </div>
+        <div class="right">
+            search =<input id="inp" type="text" placeholder="search ">
+
+            <button id="btn">EMAIL US</button>
+
+
+        </div>
+    </header>
+
+    <div class="container">
+        <h2> JOIN THE BEST GYM OF MAHARASTRA</h2>
+
+        NAME = <span id="ans"></span> <br> <input id="name" class="form" type="text" placeholder="enter your name"
+            onkeyup="namefun()">
+        AGE = <span id="ans1"></span> <br> <input id="age" class="form" type="number" placeholder="enter your age >= 18"
+            onkeyup="age()">
+        <br>
+        <label>Gender :</label>
+        <label id="radio"><input type="radio" name="gender" value="m">Male</label>
+        <label id="radio"><input type="radio" name="gender" value="f">Female</label> <br> <br>
+        PHONE NO = <span id="ans2"></span> <input id="number" class="form" type="number"
+            placeholder="enter your phone number" onkeyup="numfun()">
+        EMAIL ID = <span id="ans3"></span> <input id="email" class="form" type="email" placeholder="enter your email id"
+            onkeyup="isEmailAddress()">
+        LOCALITY =<input id="locality" class="form" type="text" placeholder="enter your locality">
+
+        <button id="btn">SUBMITE</button>
+
+    </div>
+
+    <script src="./script.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
